@@ -1,1 +1,193 @@
+/* Piacere Mio - Italian Village Bakery Style */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: #f8f3ea;
+    color: #3e3025;
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+
+/* HERO */
+
+.hero {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background: rgba(45, 32, 20, 0.45);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.4rem;
+}
+
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 28px;
+    background: #8b5a3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+
+/* SECTIONS */
+
+section {
+    padding: 70px 10%;
+}
+
+.intro {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+/* FEATURE CARDS */
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+
+/* TODAY'S OVEN */
+
+.oven {
+    text-align: center;
+    background: #eee1ce;
+}
+
+
+/* GALLERY */
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    max-width: 700px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+/* REQUEST FORM */
+
+.request {
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #c9b79c;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    background: #8b5a3c;
+    color: white;
+    border: none;
+    padding: 14px 35px;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #3e3025;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    section {
+        padding: 50px 6%;
+    }
+
+}
