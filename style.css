@@ -199,7 +199,8 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(248,243,234,.95);
+    background: rgba(255,255,255,.75);
+backdrop-filter: blur(8px);
     display: flex;
     justify-content: space-between;
     align-items: center;
